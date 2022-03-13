@@ -1,0 +1,68 @@
+{
+  "name": "Firework CC-v1.0",
+  "tags": ["firework"],
+  "category": "decorations",
+  "model": "models/Firework_preview.glb",
+  "parameters": [
+    {
+      "id": "fireWorkShapeName",
+      "label": "Firework Type",
+      "type": "options",
+      "options": [
+        {
+          "value": "Firework_01.gltf",
+          "label": "No Image"
+        },
+        {
+          "value": "Firework_02.glb",
+          "label": "Meta City"
+        },
+        {
+          "value": "Firework_03.glb",
+          "label": "DCL"
+        },
+        {
+          "value": "Firework_04.gltf",
+          "label": "Letter M"
+        },
+        {
+          "value": "Firework_05.glb",
+          "label": "Fancy"
+        },
+        {
+          "value": "Firework_06.glb",
+          "label": "Vivid"
+        },
+        {
+          "value": "Firework_07.glb",
+          "label": "Walking Friendly"
+        }
+      ],
+      "default": "Firework_01.gltf"
+    },
+    {
+      "id": "onLaunch",
+      "label": "On launch",
+      "type": "actions"
+    },
+    {
+      "id": "onExplosion",
+      "label": "On explosion",
+      "type": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "id": "launchFirework",
+      "label": "Launch",
+      "parameters": [
+        {
+          "id": "delay",
+          "label": "Delay (ms)",
+          "type": "float",
+          "default": 0
+        }
+      ]
+    }
+  ]
+}
