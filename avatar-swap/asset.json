@@ -1,0 +1,112 @@
+{
+  "id": "385445f9-b94f-431a-8c67-7650c03c9900",
+  "name": "Avatar Swap",
+  "tags": ["area", "avatar"],
+  "category": "decorations",
+  "model": "models/avatar-swap.glb",
+  "parameters": [
+    {
+      "id": "enabled",
+      "label": "Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "entireScene",
+      "label": "Entire Scene",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "whenActiveHideWho",
+      "label": "When Active Hide",
+      "type": "options",
+      "options": [
+        {
+          "value": "current",
+          "label": "current"
+        },
+        {
+          "value": "all",
+          "label": "all"
+        },
+        {
+          "value": "none",
+          "label": "none"
+        }
+      ],
+      "default": "current"
+    },
+    {
+      "id": "fixedOrigin",
+      "label": "Origin (x,y,z)",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "relative",
+      "label": "Relative",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "fixedArea",
+      "label": "Fixed Area (x,y,z)",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "sceneDimensions",
+      "label": "Scene Dimenions (x,y,z)",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "enableAnimatorClips",
+      "label": "Enable Animator Clips",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "clip1Name",
+      "label": "Animation Clip 1 Name",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "debugTriggers",
+      "label": "Debug Triggers",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "playerMovingCheckInterval",
+      "label": "Moving Check Interval (seconds)",
+      "type": "float",
+      "default": 0.05
+    },
+    
+    {
+      "id": "onEnter",
+      "label": "When Player Enters",
+      "type": "actions"
+    },
+    {
+      "id": "onLeave",
+      "label": "When Player Leaves",
+      "type": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enable",
+      "label": "Enable",
+      "parameters": []
+    },
+    {
+      "id": "disable",
+      "label": "Disable",
+      "parameters": []
+    }
+  ]
+}

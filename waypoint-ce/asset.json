@@ -1,0 +1,47 @@
+{
+  "id": "1d65b46f-f82c-4e72-839e-c695b92ddbcc",
+  "name": "Waypoint CE",
+  "tags": [
+    "arrow",
+    "indicator",
+    "path"
+  ],
+  "category": "decorations",
+  "parameters": [
+    {
+      "id": "active",
+      "label": "Waypoint Visible",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "target",
+      "label": "Item",
+      "type": "entity"
+    },
+    {
+      "id": "targetAltName",
+      "label": "target alt name",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "orderId",
+      "label": "Order",
+      "type": "integer",
+      "default": 0
+    },
+    {
+      "id": "Notes",
+      "label": "Notes",
+      "type": "textarea",
+      "default": ""
+    },
+    {
+      "id": "enabled",
+      "label": "Waypoint Enabled",
+      "type": "boolean",
+      "default": true
+    }
+  ]
+}

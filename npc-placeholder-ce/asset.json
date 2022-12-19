@@ -1,0 +1,30 @@
+{
+  "id": "dfebc6ff-bbd4-45dd-ae6d-f363321946cc",
+  "name": "NPC Place Holder",
+  "tags": [
+    "arrow",
+    "indicator",
+    "npc"
+  ],
+  "category": "decorations",
+  "parameters": [
+    {
+      "id": "active",
+      "label": "Marker Visible",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "npcName",
+      "label": "NPC Name",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "npcEnabled",
+      "label": "NPC Enabled",
+      "type": "boolean",
+      "default": true
+    }
+  ]
+}

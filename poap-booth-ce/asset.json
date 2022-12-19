@@ -1,0 +1,124 @@
+{
+  "id": "bcebce0f-1873-4148-89bc-24c2ceb9b200",
+  "name": "POAP Booth",
+  "tags": [
+    "poap"
+  ],
+  "category": "decorations",
+  "model": "models/poap/POAP_dispenser.glb",
+  "parameters": [
+    {
+      "id": "serviceUrl",
+      "label": "POAP service url",
+      "type": "text",
+      "default": ""
+    },
+
+    {
+      "id": "eventName",
+      "label": "POAP Event Name",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "enableClickable",
+      "label": "Click on/off",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "clickButton",
+      "label": "Click Button",
+      "type": "options",
+      "options": [
+        {
+          "value": "POINTER",
+          "label": "Click"
+        },
+        {
+          "value": "PRIMARY",
+          "label": "Primary Button"
+        },
+        {
+          "value": "SECONDARY",
+          "label": "Secondary Button"
+        }
+      ],
+      "default": "POINTER"
+    },
+    {
+      "id": "enabled",
+      "label": "Click Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "visible",
+      "label": "Visible",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "enabledClickSound",
+      "label": "Click Sound Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "hoverTextEnabled",
+      "label": "Enabled Hover Text",
+      "type": "text",
+      "default": "Get Attendance Token"
+    },
+    {
+      "id": "hoverTextDisabled",
+      "label": "Disabled Hover Text",
+      "type": "text",
+      "default": "Press Disabled"
+    },
+    {
+      "id": "onClick",
+      "label": "When clicked",
+      "type": "actions"
+    },
+    {
+      "id": "onDisable",
+      "label": "When Disabled",
+      "type": "actions"
+    },
+    {
+      "id": "onEnable",
+      "label": "When Enabled",
+      "type": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "id": "activate",
+      "label": "Activate",
+      "parameters": []
+    },
+    {
+      "id": "deactivate",
+      "label": "Deactivate",
+      "parameters": []
+    },
+    {
+      "id": "toggle",
+      "label": "Activate or Deactivate",
+      "parameters": []
+    },
+    {
+      "id": "setHoverText",
+      "label": "Set Hover Text",
+      "parameters": [
+        {
+          "id": "hoverText",
+          "label": "Hover Text",
+          "type": "text",
+          "default": "Press"
+        }
+      ]
+    }
+  ]
+}

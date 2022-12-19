@@ -1,0 +1,205 @@
+{
+  "id": "7669807e-1ae3-4d31-a2fa-dbd7a1d66f3a",
+  "name": "Floor Piano-CC",
+  "tags": [
+    "piano",
+    "music"
+  ],
+  "category": "decorations",
+  "model": "models/baseScene-exact-dim-preview.glb",
+  "parameters": [
+    {
+      "id": "enableClickable",
+      "label": "Click on/off",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "clickButton",
+      "label": "Click Button",
+      "type": "options",
+      "options": [
+        {
+          "value": "POINTER",
+          "label": "Click"
+        },
+        {
+          "value": "PRIMARY",
+          "label": "Primary Button"
+        },
+        {
+          "value": "SECONDARY",
+          "label": "Secondary Button"
+        }
+      ],
+      "default": "POINTER"
+    },
+    {
+      "id": "enabled",
+      "label": "Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "enabledClickSound",
+      "label": "Click Sound Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "visible",
+      "label": "Visible",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "debugTriggers",
+      "label": "Debug Triggers on/off",
+      "type": "boolean",
+      "default": false
+    },
+    {
+      "id": "scaleKeysToFitInHostBoundary",
+      "label": "Scale Keys to Fit Boundary",
+      "type": "boolean",
+      "default": true
+    },
+
+    {
+      "id": "keysWithCollisions",
+      "label": "Enable Key Colliders",
+      "type": "boolean",
+      "default": true
+    },
+    
+    {
+      "id": "numberOfOctaves",
+      "label": "Number of Octaves",
+      "type": "integer",
+      "default": 2
+    },
+    {
+      "id": "numberOfKeys",
+      "label": "Number of Keys",
+      "type": "integer",
+      "default": -1
+    },
+    {
+      "id": "visibleCasing",
+      "label": "Show Casing",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "visibleNaturalKeys",
+      "label": "Show Natural Keys",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "visibleFlatSharpKeys",
+      "label": "Show Flat Sharp Keys",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "naturalToneKeyColor",
+      "label": "Natural Key Color",
+      "type": "text",
+      "default": "White"
+    },
+    {
+      "id": "naturalToneKeyGlowColor",
+      "label": "Natural Key Glow Color",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "naturalToneKeyEmissiveIntensity",
+      "label": "Natural Key Glow Intensity",
+      "type": "float",
+      "default": 1
+    },
+    
+    {
+      "id": "naturalToneKeyLength",
+      "label": "Natural Key Length",
+      "type": "float",
+      "default": 4
+    },
+    {
+      "id": "naturalToneKeyYOffset",
+      "label": "Natural Key Y Offset",
+      "type": "float",
+      "default": 0.11
+    },
+    {
+      "id": "flatSharpKeyColor",
+      "label": "Flat/Sharp Key Color",
+      "type": "text",
+      "default": "Black"
+    },
+    {
+      "id": "flatSharpKeyLength",
+      "label": "Flat/Sharp Key Length",
+      "type": "float",
+      "default": 2
+    },
+    {
+      "id": "hoverTextEnabled",
+      "label": "Enabled Hover Text",
+      "type": "text",
+      "default": "Press"
+    },
+    {
+      "id": "hoverTextDisabled",
+      "label": "Disabled Hover Text",
+      "type": "text",
+      "default": "Press Disabled"
+    },
+    {
+      "id": "onClick",
+      "label": "When clicked",
+      "type": "actions"
+    },
+    {
+      "id": "onDisable",
+      "label": "When Disabled",
+      "type": "actions"
+    },
+    {
+      "id": "onEnable",
+      "label": "When Enabled",
+      "type": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "id": "activate",
+      "label": "Activate",
+      "parameters": []
+    },
+    {
+      "id": "deactivate",
+      "label": "Deactivate",
+      "parameters": []
+    },
+    {
+      "id": "toggle",
+      "label": "Activate or Deactivate",
+      "parameters": []
+    },
+    {
+      "id": "setHoverText",
+      "label": "Set Hover Text",
+      "parameters": [
+        {
+          "id": "hoverText",
+          "label": "Hover Text",
+          "type": "text",
+          "default": "Press"
+        }
+      ]
+    }
+  ]
+}
