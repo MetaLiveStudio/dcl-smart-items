@@ -1,3 +1,2 @@
 # dcl-smart-items
-Smart items for builder
-Multiple handy smart items
+Multiple Smart items for Decentraland builder
